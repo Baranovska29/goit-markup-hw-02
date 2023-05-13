@@ -58,6 +58,9 @@ body {
     color: #404BBF;
     text-decoration: underline;
 }
+.header-address {
+    font-style: normal 
+}
 .header-link-address {
     font-size: 16px;
     font-style: normal;
@@ -90,7 +93,7 @@ body {
     color: #FFFFFF;
 }
 .section-btn:focus{
-background: #404BBF;}
+background-color: #404BBF}
 
 .main {
     background: var(--second-background);
@@ -120,7 +123,7 @@ background: #404BBF;}
     border-radius: 4px;
     cursor: pointer;
 }
-.main-btn:hover {
+.main-btn:hover, .main-btn:focus {
     background: #404BBF;
 }
 
@@ -178,6 +181,19 @@ background: #404BBF;}
     text-align: center;
     letter-spacing: 0.02em;
     
+}
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--text-color);
 }
 .footer {
     background: var(--second-background);
