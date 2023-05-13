@@ -89,12 +89,12 @@ body {
     cursor: pointer;
 }
 .section-btn:hover {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     color: #FFFFFF;
 }
 .section-btn:focus{
-background-color: #404BBF}
-
+    background-color: #404BBF;
+    color: #FFFFFF;}
 .main {
     background: var(--second-background);
 }
@@ -124,7 +124,7 @@ background-color: #404BBF}
     cursor: pointer;
 }
 .main-btn:hover, .main-btn:focus {
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
 
