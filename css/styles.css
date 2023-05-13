@@ -21,7 +21,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -35,7 +35,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -48,7 +48,7 @@ body {
 .header-item {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
      color: var(--title-color)
 
@@ -60,9 +60,10 @@ body {
 }
 .header-link-address {
     font-size: 16px;
-    line-height: 1,5;
+    font-style: normal;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-
+    color: var(--text-color);
 }
 .header-link-address:hover, 
 .header-link-address:focus {
@@ -73,7 +74,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
@@ -88,6 +89,8 @@ body {
     background: #4D5AE5;
     color: #FFFFFF;
 }
+.section-btn:focus{
+background: #404BBF;}
 
 .main {
     background: var(--second-background);
@@ -95,7 +98,7 @@ body {
 
 .main-title {
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -107,7 +110,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -125,13 +128,13 @@ body {
 .wrapper-list-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--title-color);
 }
 .wrapper-list-text {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     
 }
@@ -139,17 +142,22 @@ body {
 .services-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--title-color);
 }
-
+.team {
+    background-color: #F4F4FD
+}
+.team-block {
+    background-color: var(--first-background);
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -159,14 +167,14 @@ body {
 .team-item {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
 .team-item-text {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     
@@ -176,7 +184,7 @@ body {
 }
 .footer-text {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;}
 
