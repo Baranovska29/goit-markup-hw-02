@@ -182,6 +182,9 @@ body {
     letter-spacing: 0.02em;
     
 }
+.card-item {
+    background-color: var(--first-background);
+}
 .card-title {
     font-weight: 500;
     font-size: 20px;
